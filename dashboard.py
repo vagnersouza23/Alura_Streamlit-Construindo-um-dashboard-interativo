@@ -66,10 +66,6 @@ fig_receita_categorias = px.bar(receita_categorias,
 fig_receita_categorias.update_layout(yaxis_title = 'Receita')
 
 
-
-
-
-
 ## VISUALIZAÇÃO NO STREAMLIT
 coluna1, coluna2 = st.columns(2)
 with coluna1:
@@ -84,23 +80,6 @@ with coluna2:
 
 
 st.dataframe(dados) # Tabela
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
