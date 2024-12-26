@@ -136,11 +136,6 @@ with aba3:
         st.plotly_chart(fig_receita_vendedores)
 
 
-
-
-
-
-
     with coluna2:
         st.metric('Quantidade de vendas', formata_numero(dados.shape[0]))
         fig_vendas_vendedores = px.bar(vendedores[['count']].sort_values('count', ascending = False).head(qtd_vendedores),
